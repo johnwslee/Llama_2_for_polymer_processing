@@ -17,7 +17,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('input',
                         type=str,
-                        default='How much is the minimum guarantee payable by adidas?',
+                        default='Explain about single screw extrusion',
                         help='Enter the query to pass into the LLM')
     args = parser.parse_args()
 
